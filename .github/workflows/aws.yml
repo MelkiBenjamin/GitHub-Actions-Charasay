@@ -15,9 +15,12 @@ jobs:
     - name: chara
       run: wget https://github.com/latipun7/charasay/releases/download/v3.2.0/chara-x86_64-unknown-linux-gnu.zip
   
-    - name: donne la date pour test
+    - name: unzip
+      run: sudo apt install -y unzip
+
+    - name: fait unzip
       run: unzip chara-x86_64-unknown-linux-gnu.zip
 
-    - name: donne la date pour test
+    - name: lance chara
       run: ./chara say -c pikachu
 
