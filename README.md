@@ -1,3 +1,3 @@
-# aws-ec2
+# github-action-charasay
 
-test
+depot qui lance un github action qui installe et lance charasay
