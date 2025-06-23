@@ -1,3 +1,3 @@
-# github-action-charasay
+# GitHub Actions Charasay
 
-depot qui lance un github action qui installe et lance charasay
+Depot qui lance un GitHub Actions qui installe et lance Charasay.
